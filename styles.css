@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background-image:url(https://scontent.ftun2-1.fna.fbcdn.net/v/t1.15752-9/235818199_1114547342405027_1010794095657452870_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=ae9488&_nc_ohc=h5NOv04E1JcAX9C0e-j&tn=pSgPdvPrv55NUO-5&_nc_ht=scontent.ftun2-1.fna&oh=e42c44fef7a436de613504d4ac609598&oe=6145D7BB);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+     
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    bottom: 0; 
+    padding: 0 !important;
+    margin: 0!important;
+    background-color: rgba(10,10,10, 0.3);
+}
+
+
+nav{
+    position: absolute;
+    top :0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 60px 0 60px;
+
+}
+
+
+nav h2{
+    color:black;
+    font-weight: 700px;
+}
+
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav li span {
+    padding-left: 5px;
+}
+
+
+li a {
+    padding: 5px;
+    background-color: wheat;
+    text-decoration: none;
+    border-radius: 7px;
+    color:royalblue;
+}
+
+/* 
+.cart fa-shopping-basket{
+vertical-align: bottom;
+font-size: 20px;
+padding-right: 5px;
+}
+
+
+.cart a {
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.image{
+    margin-right: 150px;
+    margin-left: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.name-p{
+    text-align:justify;
+    font-size: 20px;
+    font-weight: 5px;
+    letter-spacing: 2%;
+    color:#3A3B3C;
+}
+
+
+.add-cart{
+    position: absolute;
+    width: 100%;
+    background-color:darkgrey;
+    transition:all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    color: #242526;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4{
+    bottom: 50px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-outline-danger{
+    width: min-content;
+} */
+
+.items{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
